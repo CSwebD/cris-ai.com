@@ -41,6 +41,11 @@ html {
 }
 
 .brand {
+  position:relative; 
+  top:0px; 
+  left:-50px; 
+  z-index:1;
+
   color: white;
   font-style: Montserrat;
   font-weight: 100;
@@ -49,12 +54,27 @@ html {
   text-decoration: none;
 }
 .option {
+  position:relative; 
+  top:0px; 
+  left:-0px; 
+  z-index:1;
+
   padding: 2rem;
   color: white;
   font-weight: 100;
   text-decoration: none;
 }
 #home {
+}
+.home-design{
+
+}
+.home-description{
+
+  position:relative; 
+  top:-0px; 
+  left:-80px; 
+  z-index:100;
 }
 #home .button {
   font-weight: 700;
@@ -68,10 +88,86 @@ html {
   margin-top: 30px;
   transition: 0.3s ease background-color;
   text-decoration: none;
+  z-index: 100;
 }
 #home .button:hover {
   color: white;
   background-color: rgb(212, 20, 171);
+}
+
+.qrcode{
+  width: 100;
+  height: 100;
+  position: relative;
+  animation-name: qrcode;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  z-index: ;
+}
+@keyframes qrcode {
+  0%   {left:-615px; top:-420px;}
+  10%  {left:-615px; top:-158px;}
+  15%  {left:-500px; top:-158px;}
+  20%  {left:-500px; top:-92px;}
+  35% {left:-180px; top:-92px;}
+  40% {left:-180px; top:-30px;}
+  45% {left:-50px; top:-30px;}
+  55% {left:-50px; top:120px;}
+  70% {left:-380px; top:120px;}
+  90% {left:0px; top:120px;}
+  100% {left:0px; top:0px;}
+}
+.home1{
+  animation-name: home1;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+@keyframes home1{
+  0%   {color:rgb(214, 212, 212);}
+  50%  {color:rgb(214, 212, 212);}
+  65%  {color:rgb(212, 20, 171);}
+  70%  {color:rgb(212, 20, 171);}
+  75%  {color:rgb(214, 212, 212);}
+  100%  {color:rgb(214, 212, 212);}
+}
+.home2{
+  animation-name: home2;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes home2{
+  0%   {color:rgb(214, 212, 212);}
+  50%  {color:rgb(214, 212, 212);}
+  65%  {color:rgb(105, 189, 147);}
+  70%  {color:rgb(105, 189, 147);}
+  75%  {color:rgb(214, 212, 212);}
+  100%  {color:rgb(214, 212, 212);}
+}
+.home3{
+  animation-name: home3;
+  animation-duration: 4.5s;
+  animation-iteration-count: 1;
+}
+@keyframes home3{
+  0%   {color:rgb(214, 212, 212);}
+  80%  {color:rgb(214, 212, 212);}
+  85%  {color:rgb(13, 189, 243);}
+  90%  {color:rgb(13, 189, 243);}
+  95%  {color:rgb(214, 212, 212);}
+  100%  {color:rgb(214, 212, 212);}
+}
+.button{
+  animation-name: button;
+  animation-duration: 9s;
+  animation-iteration-count: 1;
+}
+@keyframes button{
+  0%   {background-color:rgb(7, 7, 12); color:rgb(212, 20, 171);}
+  70%  {background-color:rgb(7, 7, 12); color:rgb(212, 20, 171);}
+  75%  {background-color:rgb(212, 20, 171); color:rgb(214, 212, 212);}
+  80%  {background-color:rgb(212, 20, 171); color:rgb(214, 212, 212);}
+  82%  {background-color:rgb(7, 7, 12); color:rgb(212, 20, 171);}
+  100%  {background-color:rgb(7, 7, 12); color:rgb(212, 20, 171);}
 }
 
 #projects {
