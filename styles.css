@@ -103,15 +103,16 @@ html {
   margin: 10px;
 }
 
-
-
-
-
-
-
 #about {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+#about p{
+  width: 1000px;
+  text-align: justify;
+}
 #about .cv {
   font-weight: 700;
   font-size: 20px;
@@ -132,17 +133,27 @@ html {
 }
 #experience {
 }
-.period {
-  padding: 20px;
+.period h1{
+  font-weight: 500;
+  font-size: 20px;
+  padding: 24.5px;
+}
+.jobs{
+  padding: 40px;
+}
+.jobs h2{
+  font-weight: 800;
+  font-size: 16px;
+}
+.jobs h3{
+  font-weight: 100;
+  font-size: 24px;
 }
 .line {
   border-left: 1px solid rgb(13, 189, 243);
-  height: 700px;
-  padding: 5;
+  height: 550px;
 }
-.jobs {
-  padding: 20px;
-}
+
 #contact span{
   color: rgb(189, 64, 64);
 }
