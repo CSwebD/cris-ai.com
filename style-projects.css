@@ -4,119 +4,53 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    gap:20px;
-    /* background-color: rgb(20, 35, 58); */
-}
-#projects .projects{
     flex-direction: column;
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 60px 0;
+    padding: 10px;
 }
-.all-projects .new-project1{
-    background: #0e93aa;
-    /* border: 1px solid rgb(20, 35, 58); */
-    color: rgb(230, 227, 227); /* White text */
-    padding: 10px 10px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
+
+.projects-row {
+    display: flex;
+    justify-content: center; /* Center the row horizontally */
     align-items: center;
-    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure full width */
+    max-width: 600px; /* Limit maximum width for better alignment */
+    padding: 0 20px; /* Add padding for space around buttons */
+    box-sizing: border-box; /* Include padding in width calculation */
 }
-.all-projects .new-project2{
-    background: rgb(189, 167, 98);
-    /* border: 1px solid rgb(20, 35, 58); */
-    color: rgb(230, 227, 227); /* White text */
-    padding: 10px 10px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+.language-button {
+    background-color: yellow; /* Basic color for language buttons */
+    color: rgb(7, 7, 12); /* Text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline */
 }
-.all-projects .new-project3{
-    background: rgb(20, 35, 58);
-    /* border: 1px solid rgb(20, 35, 58); */
-    color: rgb(230, 227, 227); /* White text */
-    padding: 10px 10px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+.language-button:hover {
+    background-color: #ffd700; /* Lighter shade of yellow on hover */
 }
-.all-projects .new-project4{
-    background: #54536d;
-    /* border: 1px solid rgb(20, 35, 58); */
-    color: rgb(230, 227, 227); /* White text */
-    padding: 10px 10px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+.project-button {
+    background-color: transparent; /* Transparent background */
+    color: #ffd700; /* Softer yellow text */
+    padding: 10px 20px;
+    border: 2px solid #ffd700; /* Softer yellow border */
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none; /* Remove underline */
 }
-.all-projects .new-project5{
-    background: rgb(22, 87, 44);
-    /* border: 1px solid rgb(20, 35, 58); */
-    padding: 10px 10px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.project1-list {
-    display: flex;
-    justify-content: space-between;
-}
-.all-projects {
-    display: flex;
-    flex-direction: row;
-}
-.all-projects .new-project:hover {
-    background-color: rgb(20, 35, 58);
-}
-.all-projects .new-project1:hover {
-    background: #39ddfa;
-}
-.all-projects .new-project2:hover {
-    background: rgb(241, 221, 152);
-}
-.all-projects .new-project3:hover {
-    background: rgb(35, 50, 71);
-}
-.all-projects .new-project4:hover {
-    background: #6d6d8a;
-}
-.all-projects .new-project5:hover {
-    background: rgb(32, 124, 63);
-}
-#projects .projects img{
-    width: 100px;
-    height: 100px;
+
+.project-button:hover {
+    background-color: #ffd700; /* Softer yellow background on hover */
+    color: rgb(7, 7, 12); /* Dark text on hover */
 }
