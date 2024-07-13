@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="style-projects.css">
     <link rel="shortcut icon" type="image/png" href="CS-logo.png">
     <title>CS Portfolio</title>
 </head>
@@ -29,11 +28,11 @@
                 <a href="#home" class="brand">CS</a>
             </div>
             <div class="options">
-                <a href="#home" class="option">Home</a>
-                <a href="#projects" class="option">Projects</a>
-                <a href="#about" class="option">About</a>
-                <a href="#experience" class="option">Experience</a>
-                <a href="#contact" class="option">Contact</a>
+                <a id="home-btn" href="#home" class="option home-active">Home</a>
+                <a id="projects-btn" href="#projects" class="option">Projects</a>
+                <a id="about-btn" href="#about" class="option">About</a>
+                <a id="experience-btn" href="#experience" class="option">Experience</a>
+                <a id="contact-btn" href="#contact" class="option">Contact</a>
             </div>
         </div>
     </section>
@@ -60,7 +59,7 @@
         <div class="projects container">
             <div class="projects-row">
                 <button class="language-button">HTML/CSS</button>
-                <a href="https://developer-roadmaps.netlify.app/" class="project-button" target="_blank">Developer Roadmaps</a>
+                <a href="https://skill-maps.com" class="project-button" target="_blank">Developer Roadmaps</a>
                 <a href="https://cs-portfolio1.netlify.app/" class="project-button" target="_blank">CS Portfolio</a>
                 <a href="https://b0n-appetit.netlify.app/" class="project-button" target="_blank">Bon Appetit</a>
                 <a href="https://cristi-s-cuisine.netlify.app/" class="project-button" target="_blank">Cristi’s Cuisine</a>
@@ -153,7 +152,7 @@
             </div>
             <div class="footer">
                 <div class="brand-name">
-                    <br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br>
                     <span></span>
                 </div>
                 <div class="footer-icons">
@@ -178,6 +177,8 @@
     </section>
     <!--Contact End-->
 
+    <!-- Link script.js -->
+    <script src="script.js"></script>
 </body>
 
 </html>
