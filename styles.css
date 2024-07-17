@@ -2,9 +2,9 @@
 
 :root {
   --pink: rgb(212, 20, 171);
-  --yellow: rgb(255, 255, 0);
-  --green: rgb(105, 189, 147);
-  --blue: rgb(13, 189, 243);
+  --yellow: rgb(241, 241, 88);
+  --green: rgb(117, 197, 141);
+  --blue: rgb(45, 158, 192);
   --red: rgb(189, 64, 64);
 }
 
@@ -100,11 +100,23 @@ html {
   font-weight: 100;
   text-decoration: none;
 }
+/*
+#home{
+  #background-image: url(neuron.png);
+}
+.home{
+  background-image: url(ship.png);
+  right: -3px;
+  background-size: 600px 200px;
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
 
+}
+*/
 .home-description {
   position: relative;
   top: 0;
-  left: -80px;
+  left: -31px;
   z-index: 100;
 }
 
@@ -389,3 +401,4 @@ html {
     display: block;
   }
 }
+
