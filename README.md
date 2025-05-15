@@ -1,6 +1,6 @@
 # 🎨 Cristian Sclifos (CRIS-AI) Portfolio Website
 
-[![Website Status](https://img.shields.io/website-up-down-green-red/https/cris-ai.com.svg)](https://cris-ai.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://app.netlify.com/sites/your-site-id)
+[![Website Status](https://img.shields.io/website-up-down-green-red/https/cris-ai.com.svg)](https://cris-ai.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A vibrant portfolio showcasing my projects, skills, experience, and contact details, built with modern web technologies for a sleek, responsive design.
 
