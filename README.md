@@ -42,42 +42,10 @@ This repository powers my personal portfolio website, highlighting:
 
 ---
 
-## 🏗️ Background Design
-
-```css
-body {
-  background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5fa, #2980b9);
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
-}
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-```
-
-Add Particles.js for extra flair:
-
-```html
-<div id="particles-js"></div>
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-<script>
-  particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('Particles.js loaded');
-  });
-</script>
-```
-
----
-
 ## 📂 Repository Structure
 
 ```plaintext
 ├── index.html           # Home & Projects
-├── about.html           # About & Skills
-├── experience.html      # Work Timeline
-├── contact.html         # Contact & CV
 ├── assets/              # CSS, JS, images, PDF
 │   ├── css/             # Stylesheets
 │   ├── js/              # Scripts
@@ -114,4 +82,4 @@ Contributions are welcome! Fork the repo, create a branch named **feature/your-f
 ## 📄 License
 
 *© 2025 Cristian Sclifos*
-Licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](/LICENSE).
