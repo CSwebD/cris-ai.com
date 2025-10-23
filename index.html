@@ -1,163 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="extra.css">
-    <link rel="shortcut icon" type="image/png" href="CS-logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+    <link rel="shortcut icon" type="image/png" href="CS-logo.png" />
     <title>CS Portfolio</title>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEQMQ8TFM5"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YEQMQ8TFM5"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-YEQMQ8TFM5');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-YEQMQ8TFM5");
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Menu Section-->
     <section id="menu">
-        <div class="menu container">
-            <div class="brand">
-                <a href="#home" class="brand">CS</a>
-            </div>
-            <div class="options">
-                <a id="home-btn" href="#home" class="option home-active">Home</a>
-                <a id="projects-btn" href="#projects" class="option">Projects</a>
-                <a id="about-btn" href="#about" class="option">About</a>
-                <a id="experience-btn" href="#experience" class="option">Experience</a>
-                <a id="contact-btn" href="#contact" class="option">Contact</a>
-            </div>
+      <div class="menu container">
+        <div class="brand">
+          <a href="#home" class="brand">CS</a>
         </div>
+        <div class="options">
+          <a id="home-btn" href="#home" class="option home-active">Home</a>
+          <a id="projects-btn" href="#projects" class="option">Projects</a>
+          <a id="about-btn" href="#about" class="option">About</a>
+          <a id="experience-btn" href="#experience" class="option"
+            >Experience</a
+          >
+          <a id="contact-btn" href="#contact" class="option">Contact</a>
+        </div>
+      </div>
     </section>
     <!--Menu Section End-->
 
     <!--Home Section-->
     <section id="home">
-        <div id="particles-js"></div>
-        <div class="home container">
-            <div class="home-description">
-                <h1>Hi,</h1>
-                <h1>I'm Cristian,</h1>
-                <h1>a Software Engineer.</h1>
-                <a href="#projects" type="button" class="button">Portfolio</a>
-            </div>
+      <div id="particles-js"></div>
+      <div class="home container">
+        <div class="home-description">
+          <h1>Hi,</h1>
+          <h1>I'm Cristian,</h1>
+          <h1>a Software Engineer.</h1>
+          <a href="#projects" type="button" class="button">Portfolio</a>
         </div>
+      </div>
     </section>
     <!--Home section End-->
 
     <!-- New Projects -->
     <!-- Projects Section -->
     <section id="projects">
-        <div class="projects container">
-            <div class="projects-row">
-                <button class="language-button">HTML/CSS</button>
-                <a href="https://skill-maps.com" class="project-button" target="_blank">Developer Roadmaps</a>
-                <a href="https://cs-portfolio1.netlify.app/" class="project-button" target="_blank">CS Portfolio</a>
-                <a href="https://b0n-appetit.netlify.app/" class="project-button" target="_blank">Bon Appetit</a>
-                <a href="https://cristi-s-cuisine.netlify.app/" class="project-button" target="_blank">Cristi’s Cuisine</a>
-                <a href="https://3-dots.netlify.app/" class="project-button" target="_blank">Three Dots</a>
-            </div>
-            <div class="projects-row">
-                <button class="language-button">Java</button>
-                <a href="https://github.com/CSwebD/Banking_Application_in_java" class="project-button" target="_blank">Banking Application</a>
-                <a href="https://github.com/CSwebD/Student_Management_System_in_java" class="project-button" target="_blank">Student Management System</a>
-                <a href="https://github.com/CSwebD/To_Do_List_in_Java" class="project-button" target="_blank">To_Do list</a>
-            </div>
-            <div class="projects-row">
-                <button class="language-button">Python</button>
-                <a href="https://github.com/CSwebD/machine-learning-techniques-for-predicting-American-Airlines-Stock-using-RNN-model" class="project-button" target="_blank">Machine_Learning RNN_model</a>
-                <a href="https://github.com/CSwebD/Web_Scraping_with_BeautifulSoup" class="project-button" target="_blank">Web_Scraping Python_course</a>
+      <div class="projects container">
+        <h1 class="section-title">PROJECTS <span>BY LANGUAGE</span></h1>
 
-            </div>
+        <div class="projects-row">
+          <button class="language-button">HTML, CSS, JavaScript</button>
+          <a href="https://cris-ai.com/" class="project-button" target="_blank"
+            >CRIS-AI Portfolio</a
+          >
+          <a
+            href="https://skill-maps.com/"
+            class="project-button"
+            target="_blank"
+            >Skill Maps</a
+          >
+          <a
+            href="https://cs-portfolio1.netlify.app/"
+            class="project-button"
+            target="_blank"
+            >CS Portfolio</a
+          >
+          <a
+            href="https://b0n-appetit.netlify.app/"
+            class="project-button"
+            target="_blank"
+            >Bon Appetit</a
+          >
+          <a
+            href="https://cristi-s-cuisine.netlify.app/"
+            class="project-button"
+            target="_blank"
+            >Cristi's Cuisine</a
+          >
+          <a
+            href="https://3-dots.netlify.app/"
+            class="project-button"
+            target="_blank"
+            >Three Dots</a
+          >
         </div>
+
+        <div class="projects-row">
+          <button class="language-button">Python</button>
+          <a
+            href="https://github.com/CSwebD/machine-learning-techniques-for-predicting-American-Airlines-Stock-using-RNN-model"
+            class="project-button"
+            target="_blank"
+            >RNN-AAL-Prediction</a
+          >
+          <a
+            href="https://github.com/CSwebD/web-scraping-an-article"
+            class="project-button"
+            target="_blank"
+            >Web Scraping (Article)</a
+          >
+          <a
+            href="https://github.com/CSwebD/Student_Management_System"
+            class="project-button"
+            target="_blank"
+            >Student Management System</a
+          >
+          <a
+            href="https://github.com/CSwebD/ToDo_List_Py"
+            class="project-button"
+            target="_blank"
+            >ToDo List (Python)</a
+          >
+        </div>
+
+        <div class="projects-row">
+          <button class="language-button">Java</button>
+          <a
+            href="https://github.com/CSwebD/ATM_java"
+            class="project-button"
+            target="_blank"
+            >ATM (Automated Teller Machine)</a
+          >
+          <a
+            href="https://github.com/CSwebD/BankingApplicationGUI"
+            class="project-button"
+            target="_blank"
+            >Banking Application GUI</a
+          >
+          <a
+            href="https://github.com/CSwebD/ToDo_List_Java"
+            class="project-button"
+            target="_blank"
+            >ToDo List (Java)</a
+          >
+          <a
+            href="https://github.com/CSwebD/Student_Management_System"
+            class="project-button"
+            target="_blank"
+            >Student Management System</a
+          >
+          <a
+            href="https://github.com/CSwebD/Currency_Converter_Java"
+            class="project-button"
+            target="_blank"
+            >Currency Converter</a
+          >
+        </div>
+
+        <div class="projects-row">
+          <button class="language-button">R</button>
+          <a
+            href="https://github.com/CSwebD/Weight-Change-Analysis"
+            class="project-button"
+            target="_blank"
+            >Weight Change Analysis</a
+          >
+        </div>
+
+        <div class="projects-row">
+          <button class="language-button">C++</button>
+          <a
+            href="https://github.com/CSwebD/ToDo_List_CPP"
+            class="project-button"
+            target="_blank"
+            >ToDo List (C++)</a
+          >
+        </div>
+
+        <p class="last-updated">Last updated: October 2025</p>
+      </div>
     </section>
     <!-- Projects Section End -->
 
     <!--Skills-->
     <section id="about">
-        <div class="about container">
-            <div>
-                <p>Motivated and detail-oriented Software Engineer experienced in web development, RESTful APIs, and CI/CD workflows using Git and cloud deployment. Proficient in Java, C++, and Python, with working knowledge of JavaScript, TypeScript, and JSON. Skilled in building interactive web pages, integrating Google Analytics API (gtag.js), and applying Agile development practices. Strong foundation in software architecture, debugging, and optimisation, with a keen interest in AI-powered and generative applications. Passionate about writing clean, maintainable code and learning advanced development tools.</p>
-                <a href="CV Cristian Sclifos.pdf" target="_blank" class="cv">Curriculum Vitae (PDF)</a>
-            </div>
+      <div class="about container">
+        <div>
+          <p>
+            Motivated and detail-oriented Software Engineer experienced in web
+            development, RESTful APIs, and CI/CD workflows using Git and cloud
+            deployment. Proficient in Java, C++, and Python, with working
+            knowledge of JavaScript, TypeScript, and JSON. Skilled in building
+            interactive web pages, integrating Google Analytics API (gtag.js),
+            and applying Agile development practices. Strong foundation in
+            software architecture, debugging, and optimisation, with a keen
+            interest in AI-powered and generative applications. Passionate about
+            writing clean, maintainable code and learning advanced development
+            tools.
+          </p>
+          <a href="CV Cristian Sclifos.pdf" target="_blank" class="cv"
+            >Curriculum Vitae (PDF)</a
+          >
         </div>
+      </div>
     </section>
     <!--Skills End-->
 
     <!--Experience-->
     <section id="experience">
-        <div class="experience container">
-            <div class="line"></div>
-            <div class="jobs">
-                <h2>Software Developer (Project Lead) | Skill-maps.com</h2>
-                <h3>June 2022 - Present</h3><br>
-                <h2>IT Service Desk Analyst | University of Greenwich</h2>
-                <h3>November 2023 - October 2025</h3><br>
-                <h2>Web Designer | Global Job</h2>
-                <h3>January 2020 - June 2022</h3><br>
-            </div>
+      <div class="experience container">
+        <div class="line"></div>
+        <div class="jobs">
+          <h2>Software Developer (Project Lead) | Skill-maps.com</h2>
+          <h3>June 2022 - Present</h3>
+          <br />
+          <h2>IT Service Desk Analyst | University of Greenwich</h2>
+          <h3>November 2023 - October 2025</h3>
+          <br />
+          <h2>Web Designer | Global Job</h2>
+          <h3>January 2020 - June 2022</h3>
+          <br />
         </div>
+      </div>
     </section>
     <!--Experience End-->
 
     <!--Contact-->
     <section id="contact">
-        <div class="contact container">
-            <div>
-                <br><br><br><br><br><br><br><br><br><br>
-                <h1 class="section-title">CONTACT <span>INFO</span></h1>
-                <br><br>
-            </div>
-            <div class="contact-items">
-                <div class="contact-item">
-                    <div class="icon">
-                        <img src="https://img.icons8.com/ios/50/ffffff/email.png" />
-                    </div>
-                    <div class="contact-info">
-                        <h1>Email</h1>
-                        <p>sclifos.cristian@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="brand-name">
-                    <br><br><br><br><br><br><br><br>
-                    <span></span>
-                </div>
-                <div class="footer-icons">
-                    <div class="footer-icon">
-                        <a href="https://www.linkedin.com/in/cristian-sclifos-01525b162/" target="_blank"><img
-                                src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" /></a>
-                    </div>
-                    <div class="footer-icon">
-                        <a href="https://github.com/CSwebD" target="_blank"><img
-                                src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" /></a>
-                    </div>
-                    <div class="footer-icon">
-                        <a href="https://codepen.io/cristiansclifos" target="_blank"><img
-                                src="https://img.icons8.com/windows/32/ffffff/codepen.png" /></a>
-                    </div>
-                </div>
-                <div class="copyright">
-                    C<span>S</span> Cristian <span>Sclifos</span> © 2025 All rights reserved.
-                </div>
-            </div>
+      <div class="contact container">
+        <div>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <h1 class="section-title">CONTACT <span>INFO</span></h1>
+          <br /><br />
         </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/ios/50/ffffff/email.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <p>sclifos.cristian@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="brand-name">
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <span></span>
+          </div>
+          <div class="footer-icons">
+            <div class="footer-icon">
+              <a
+                href="https://www.linkedin.com/in/cristian-sclifos-01525b162/"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://github.com/CSwebD" target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://codepen.io/cristiansclifos" target="_blank"
+                ><img
+                  src="https://img.icons8.com/windows/32/ffffff/codepen.png"
+              /></a>
+            </div>
+          </div>
+          <div class="copyright">
+            C<span>S</span> Cristian <span>Sclifos</span> © 2025 All rights
+            reserved.
+          </div>
+        </div>
+      </div>
     </section>
     <!--Contact End-->
 
     <!-- Link script.js -->
     <script src="script.js"></script>
     <script src="particles.js"></script>
-</body>
-
+  </body>
 </html>
